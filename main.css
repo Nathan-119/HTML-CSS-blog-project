@@ -1,10 +1,32 @@
 img {
-    width: 100%;
+    width: 75%;
+    height: 75%;
+    text-align:center;
+    padding: 70px
 }
 /*find fonts with google.fonts.com*/
 
+h1 {
+color: cadetblue
+}
+
+h2 {
+    color: aliceblue
+/*background-color:rgba(255, 255, 255, 0.568)*/
+}
+
+p {
+    color:black;
+    background-color:rgba(255, 255, 255, 0.658);
+    padding: 50px, 10px;
+}
+
 body {
-    background-image: "images/TriOptimum_login.jpeg";
+    background-image: url(images/TriOptimum_login.jpeg);
+    background-repeat: no-repeat;
+  /*background-position: center top;*/
+  background-attachment: fixed;
+  background-size: 105%;
 }
 
 html {
@@ -35,9 +57,9 @@ html {
             }
 
             .newvideo {
+                padding: 40px
 
             }
             .oldvideo {
-                
-
+                padding: 40px
             }
