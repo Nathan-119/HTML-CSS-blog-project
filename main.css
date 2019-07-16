@@ -3,6 +3,10 @@ img {
 }
 /*find fonts with google.fonts.com*/
 
+body {
+    background-image: "images/TriOptimum_login.jpeg";
+}
+
 html {
     scroll-behavior: smooth;
   }
